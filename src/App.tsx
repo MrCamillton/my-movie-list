@@ -4,9 +4,14 @@ import movies from "./data/movies.json";
 import MovieCard from "./components/MovieCard";
 
 function App() {
+  const [movieList, setMovieList] = useState(movies);
   const [watchedMovies, setWatchedMovies] = useState<number[]>([]);
   const [ratings, setRatings] = useState<{ [key: number]: number }>({});
   const [filter, setFilter] = useState("all");
+
+  const [title, setTitle] = useState("");
+  const [year, setYear] = useState("");
+  const [genres, setGenres] = useState([""]);
 
   function markAsWatched(id: number) {
     if (watchedMovies.includes(id)) {
@@ -28,14 +33,47 @@ function App() {
     setRatings({});
   }
 
-  let filteredMovies = movies;
+  function addGenreField() {
+    setGenres([...genres, ""]);
+  }
+
+  function changeGenre(index: number, value: string) {
+    const newGenres = [...genres];
+    newGenres[index] = value;
+    setGenres(newGenres);
+  }
+
+  function removeGenreField(index: number) {
+    setGenres(genres.filter((_, genreIndex) => genreIndex !== index));
+  }
+
+  function addMovie(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const newMovie = {
+      id: Date.now(),
+      title: title,
+      year: Number(year),
+      genre: genres.filter((genre) => genre.trim() !== ""),
+    };
+
+    setMovieList([...movieList, newMovie]);
+
+    setTitle("");
+    setYear("");
+    setGenres([""]);
+  }
+
+  let filteredMovies = movieList;
 
   if (filter === "watched") {
-    filteredMovies = movies.filter((movie) => watchedMovies.includes(movie.id));
+    filteredMovies = movieList.filter((movie) =>
+      watchedMovies.includes(movie.id),
+    );
   }
 
   if (filter === "unwatched") {
-    filteredMovies = movies.filter(
+    filteredMovies = movieList.filter(
       (movie) => !watchedMovies.includes(movie.id),
     );
   }
@@ -45,8 +83,71 @@ function App() {
       <h1>Moja lista filmów</h1>
 
       <h3>
-        Obejrzane: {watchedMovies.length} / {movies.length}
+        Obejrzane: {watchedMovies.length} / {movieList.length}
       </h3>
+
+      <form onSubmit={addMovie} className="movie-form">
+        <h2>Dodaj nowy film</h2>
+
+        <div>
+          <label>Tytuł:</label>
+          <input
+            type="text"
+            value={title}
+            onChange={(event) => setTitle(event.target.value)}
+            required
+          />
+        </div>
+
+        <div>
+          <label>Rok:</label>
+          <input
+            type="number"
+            value={year}
+            onChange={(event) => setYear(event.target.value)}
+            required
+          />
+        </div>
+
+        <div>
+          {" "}
+          <label>Gatunki:</label>
+          {genres.map((genre, index) => (
+            <div key={index} className="genre-input">
+              <input
+                type="text"
+                value={genre}
+                onChange={(event) => changeGenre(index, event.target.value)}
+                required
+              />
+
+              <div className="genre-buttons">
+                {genres.length > 1 && (
+                  <button
+                    type="button"
+                    className="remove-genre"
+                    onClick={() => removeGenreField(index)}
+                  >
+                    −
+                  </button>
+                )}
+
+                {index === genres.length - 1 && (
+                  <button
+                    type="button"
+                    className="add-genre"
+                    onClick={addGenreField}
+                  >
+                    +
+                  </button>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <button type="submit">Dodaj</button>
+      </form>
 
       <div className="filters">
         <button onClick={() => setFilter("all")}>Wszystkie</button>

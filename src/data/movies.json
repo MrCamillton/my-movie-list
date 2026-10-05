@@ -3,714 +3,72 @@
     "id": 1,
     "title": "Interstellar",
     "year": 2014,
-    "genre": "Sci-Fi"
+    "genre": ["Sci-Fi"]
   },
   {
     "id": 2,
     "title": "Inception",
     "year": 2010,
-    "genre": "Sci-Fi"
+    "genre": ["Sci-Fi"]
   },
   {
     "id": 3,
     "title": "The Matrix",
     "year": 1999,
-    "genre": "Sci-Fi"
+    "genre": ["Sci-Fi"]
   },
   {
     "id": 4,
     "title": "Blade Runner 2049",
     "year": 2017,
-    "genre": "Sci-Fi"
+    "genre": ["Sci-Fi"]
   },
   {
     "id": 5,
     "title": "The Dark Knight",
     "year": 2008,
-    "genre": "Action"
+    "genre": ["Action"]
   },
   {
     "id": 6,
     "title": "Pulp Fiction",
     "year": 1994,
-    "genre": "Crime"
+    "genre": ["Crime"]
   },
   {
     "id": 7,
     "title": "Fight Club",
     "year": 1999,
-    "genre": "Drama"
+    "genre": ["Drama"]
   },
   {
     "id": 8,
     "title": "The Shawshank Redemption",
     "year": 1994,
-    "genre": "Drama"
+    "genre": ["Drama"]
   },
   {
     "id": 9,
     "title": "The Godfather",
     "year": 1972,
-    "genre": "Crime"
+    "genre": ["Crime"]
   },
   {
     "id": 10,
     "title": "Forrest Gump",
     "year": 1994,
-    "genre": "Drama"
+    "genre": ["Drama"]
   },
   {
     "id": 11,
     "title": "Gladiator",
     "year": 2000,
-    "genre": "Action"
+    "genre": ["Action"]
   },
   {
     "id": 12,
     "title": "The Lord of the Rings: The Fellowship of the Ring",
     "year": 2001,
-    "genre": "Fantasy"
-  },
-  {
-    "id": 13,
-    "title": "The Lord of the Rings: The Two Towers",
-    "year": 2002,
-    "genre": "Fantasy"
-  },
-  {
-    "id": 14,
-    "title": "The Lord of the Rings: The Return of the King",
-    "year": 2003,
-    "genre": "Fantasy"
-  },
-  {
-    "id": 15,
-    "title": "Dune",
-    "year": 2021,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 16,
-    "title": "Dune: Part Two",
-    "year": 2024,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 17,
-    "title": "Parasite",
-    "year": 2019,
-    "genre": "Thriller"
-  },
-  {
-    "id": 18,
-    "title": "The Silence of the Lambs",
-    "year": 1991,
-    "genre": "Thriller"
-  },
-  {
-    "id": 19,
-    "title": "Whiplash",
-    "year": 2014,
-    "genre": "Drama"
-  },
-  {
-    "id": 20,
-    "title": "The Prestige",
-    "year": 2006,
-    "genre": "Mystery"
-  },
-  {
-    "id": 21,
-    "title": "The Green Mile",
-    "year": 1999,
-    "genre": "Drama"
-  },
-  {
-    "id": 22,
-    "title": "Se7en",
-    "year": 1995,
-    "genre": "Thriller"
-  },
-  {
-    "id": 23,
-    "title": "The Departed",
-    "year": 2006,
-    "genre": "Crime"
-  },
-  {
-    "id": 24,
-    "title": "Joker",
-    "year": 2019,
-    "genre": "Drama"
-  },
-  {
-    "id": 25,
-    "title": "Oppenheimer",
-    "year": 2023,
-    "genre": "Drama"
-  },
-  {
-    "id": 26,
-    "title": "The Wolf of Wall Street",
-    "year": 2013,
-    "genre": "Biography"
-  },
-  {
-    "id": 27,
-    "title": "Goodfellas",
-    "year": 1990,
-    "genre": "Crime"
-  },
-  {
-    "id": 28,
-    "title": "The Truman Show",
-    "year": 1998,
-    "genre": "Drama"
-  },
-  {
-    "id": 29,
-    "title": "Arrival",
-    "year": 2016,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 30,
-    "title": "Tenet",
-    "year": 2020,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 31,
-    "title": "Avatar",
-    "year": 2009,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 32,
-    "title": "Titanic",
-    "year": 1997,
-    "genre": "Romance"
-  },
-  {
-    "id": 33,
-    "title": "The Revenant",
-    "year": 2015,
-    "genre": "Adventure"
-  },
-  {
-    "id": 34,
-    "title": "Django Unchained",
-    "year": 2012,
-    "genre": "Western"
-  },
-  {
-    "id": 35,
-    "title": "Inglourious Basterds",
-    "year": 2009,
-    "genre": "War"
-  },
-  {
-    "id": 36,
-    "title": "The Hateful Eight",
-    "year": 2015,
-    "genre": "Western"
-  },
-  {
-    "id": 37,
-    "title": "The Grand Budapest Hotel",
-    "year": 2014,
-    "genre": "Comedy"
-  },
-  {
-    "id": 38,
-    "title": "The Social Network",
-    "year": 2010,
-    "genre": "Biography"
-  },
-  {
-    "id": 39,
-    "title": "A Beautiful Mind",
-    "year": 2001,
-    "genre": "Biography"
-  },
-  {
-    "id": 40,
-    "title": "Catch Me If You Can",
-    "year": 2002,
-    "genre": "Crime"
-  },
-  {
-    "id": 41,
-    "title": "Shutter Island",
-    "year": 2010,
-    "genre": "Mystery"
-  },
-  {
-    "id": 42,
-    "title": "Memento",
-    "year": 2000,
-    "genre": "Mystery"
-  },
-  {
-    "id": 43,
-    "title": "The Sixth Sense",
-    "year": 1999,
-    "genre": "Horror"
-  },
-  {
-    "id": 44,
-    "title": "Get Out",
-    "year": 2017,
-    "genre": "Horror"
-  },
-  {
-    "id": 45,
-    "title": "A Quiet Place",
-    "year": 2018,
-    "genre": "Horror"
-  },
-  {
-    "id": 46,
-    "title": "Mad Max: Fury Road",
-    "year": 2015,
-    "genre": "Action"
-  },
-  {
-    "id": 47,
-    "title": "John Wick",
-    "year": 2014,
-    "genre": "Action"
-  },
-  {
-    "id": 48,
-    "title": "Top Gun: Maverick",
-    "year": 2022,
-    "genre": "Action"
-  },
-  {
-    "id": 49,
-    "title": "Spider-Man: Into the Spider-Verse",
-    "year": 2018,
-    "genre": "Animation"
-  },
-  {
-    "id": 50,
-    "title": "Coco",
-    "year": 2017,
-    "genre": "Animation"
-  },
-  {
-    "id": 51,
-    "title": "The Godfather Part II",
-    "year": 1974,
-    "genre": "Crime"
-  },
-  {
-    "id": 52,
-    "title": "The Godfather Part III",
-    "year": 1990,
-    "genre": "Crime"
-  },
-  {
-    "id": 53,
-    "title": "Saving Private Ryan",
-    "year": 1998,
-    "genre": "War"
-  },
-  {
-    "id": 54,
-    "title": "Schindler's List",
-    "year": 1993,
-    "genre": "Drama"
-  },
-  {
-    "id": 55,
-    "title": "The Pianist",
-    "year": 2002,
-    "genre": "War"
-  },
-  {
-    "id": 56,
-    "title": "Braveheart",
-    "year": 1995,
-    "genre": "History"
-  },
-  {
-    "id": 57,
-    "title": "Gladiator",
-    "year": 2000,
-    "genre": "Action"
-  },
-  {
-    "id": 58,
-    "title": "The Last Samurai",
-    "year": 2003,
-    "genre": "Drama"
-  },
-  {
-    "id": 59,
-    "title": "300",
-    "year": 2006,
-    "genre": "Action"
-  },
-  {
-    "id": 60,
-    "title": "Troy",
-    "year": 2004,
-    "genre": "History"
-  },
-  {
-    "id": 61,
-    "title": "Kingdom of Heaven",
-    "year": 2005,
-    "genre": "History"
-  },
-  {
-    "id": 62,
-    "title": "The Dark Knight Rises",
-    "year": 2012,
-    "genre": "Action"
-  },
-  {
-    "id": 63,
-    "title": "Batman Begins",
-    "year": 2005,
-    "genre": "Action"
-  },
-  {
-    "id": 64,
-    "title": "Man of Steel",
-    "year": 2013,
-    "genre": "Action"
-  },
-  {
-    "id": 65,
-    "title": "Wonder Woman",
-    "year": 2017,
-    "genre": "Action"
-  },
-  {
-    "id": 66,
-    "title": "Iron Man",
-    "year": 2008,
-    "genre": "Action"
-  },
-  {
-    "id": 67,
-    "title": "Avengers: Endgame",
-    "year": 2019,
-    "genre": "Action"
-  },
-  {
-    "id": 68,
-    "title": "Avengers: Infinity War",
-    "year": 2018,
-    "genre": "Action"
-  },
-  {
-    "id": 69,
-    "title": "Guardians of the Galaxy",
-    "year": 2014,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 70,
-    "title": "Black Panther",
-    "year": 2018,
-    "genre": "Action"
-  },
-  {
-    "id": 71,
-    "title": "Doctor Strange",
-    "year": 2016,
-    "genre": "Fantasy"
-  },
-  {
-    "id": 72,
-    "title": "Thor: Ragnarok",
-    "year": 2017,
-    "genre": "Action"
-  },
-  {
-    "id": 73,
-    "title": "Logan",
-    "year": 2017,
-    "genre": "Action"
-  },
-  {
-    "id": 74,
-    "title": "Deadpool",
-    "year": 2016,
-    "genre": "Comedy"
-  },
-  {
-    "id": 75,
-    "title": "Deadpool 2",
-    "year": 2018,
-    "genre": "Comedy"
-  },
-  {
-    "id": 76,
-    "title": "Guardians of the Galaxy Vol. 2",
-    "year": 2017,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 77,
-    "title": "Captain America: The Winter Soldier",
-    "year": 2014,
-    "genre": "Action"
-  },
-  {
-    "id": 78,
-    "title": "Captain America: Civil War",
-    "year": 2016,
-    "genre": "Action"
-  },
-  {
-    "id": 79,
-    "title": "Star Wars: Episode IV - A New Hope",
-    "year": 1977,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 80,
-    "title": "Star Wars: Episode V - The Empire Strikes Back",
-    "year": 1980,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 81,
-    "title": "Star Wars: Episode VI - Return of the Jedi",
-    "year": 1983,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 82,
-    "title": "Rogue One: A Star Wars Story",
-    "year": 2016,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 83,
-    "title": "Star Wars: The Force Awakens",
-    "year": 2015,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 84,
-    "title": "Alien",
-    "year": 1979,
-    "genre": "Horror"
-  },
-  {
-    "id": 85,
-    "title": "Aliens",
-    "year": 1986,
-    "genre": "Action"
-  },
-  {
-    "id": 86,
-    "title": "Terminator",
-    "year": 1984,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 87,
-    "title": "Terminator 2: Judgment Day",
-    "year": 1991,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 88,
-    "title": "Jurassic Park",
-    "year": 1993,
-    "genre": "Adventure"
-  },
-  {
-    "id": 89,
-    "title": "The Lost World: Jurassic Park",
-    "year": 1997,
-    "genre": "Adventure"
-  },
-  {
-    "id": 90,
-    "title": "Jaws",
-    "year": 1975,
-    "genre": "Thriller"
-  },
-  {
-    "id": 91,
-    "title": "Back to the Future",
-    "year": 1985,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 92,
-    "title": "Back to the Future Part II",
-    "year": 1989,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 93,
-    "title": "Back to the Future Part III",
-    "year": 1990,
-    "genre": "Adventure"
-  },
-  {
-    "id": 94,
-    "title": "The Terminator",
-    "year": 1984,
-    "genre": "Action"
-  },
-  {
-    "id": 95,
-    "title": "Predator",
-    "year": 1987,
-    "genre": "Action"
-  },
-  {
-    "id": 96,
-    "title": "RoboCop",
-    "year": 1987,
-    "genre": "Sci-Fi"
-  },
-  {
-    "id": 97,
-    "title": "Die Hard",
-    "year": 1988,
-    "genre": "Action"
-  },
-  {
-    "id": 98,
-    "title": "Léon: The Professional",
-    "year": 1994,
-    "genre": "Action"
-  },
-  {
-    "id": 99,
-    "title": "Heat",
-    "year": 1995,
-    "genre": "Crime"
-  },
-  {
-    "id": 100,
-    "title": "Casino",
-    "year": 1995,
-    "genre": "Crime"
-  },
-  {
-    "id": 101,
-    "title": "Scarface",
-    "year": 1983,
-    "genre": "Crime"
-  },
-  {
-    "id": 102,
-    "title": "Reservoir Dogs",
-    "year": 1992,
-    "genre": "Crime"
-  },
-  {
-    "id": 103,
-    "title": "Kill Bill: Vol. 1",
-    "year": 2003,
-    "genre": "Action"
-  },
-  {
-    "id": 104,
-    "title": "Kill Bill: Vol. 2",
-    "year": 2004,
-    "genre": "Action"
-  },
-  {
-    "id": 105,
-    "title": "Once Upon a Time in Hollywood",
-    "year": 2019,
-    "genre": "Drama"
-  },
-  {
-    "id": 106,
-    "title": "No Country for Old Men",
-    "year": 2007,
-    "genre": "Thriller"
-  },
-  {
-    "id": 107,
-    "title": "There Will Be Blood",
-    "year": 2007,
-    "genre": "Drama"
-  },
-  {
-    "id": 108,
-    "title": "The Big Lebowski",
-    "year": 1998,
-    "genre": "Comedy"
-  },
-  {
-    "id": 109,
-    "title": "American Beauty",
-    "year": 1999,
-    "genre": "Drama"
-  },
-  {
-    "id": 110,
-    "title": "American History X",
-    "year": 1998,
-    "genre": "Drama"
-  },
-  {
-    "id": 111,
-    "title": "Requiem for a Dream",
-    "year": 2000,
-    "genre": "Drama"
-  },
-  {
-    "id": 112,
-    "title": "Black Swan",
-    "year": 2010,
-    "genre": "Thriller"
-  },
-  {
-    "id": 113,
-    "title": "The Machinist",
-    "year": 2004,
-    "genre": "Thriller"
-  },
-  {
-    "id": 114,
-    "title": "Prisoners",
-    "year": 2013,
-    "genre": "Thriller"
-  },
-  {
-    "id": 115,
-    "title": "Gone Girl",
-    "year": 2014,
-    "genre": "Mystery"
-  },
-  {
-    "id": 116,
-    "title": "Nightcrawler",
-    "year": 2014,
-    "genre": "Thriller"
-  },
-  {
-    "id": 117,
-    "title": "Drive",
-    "year": 2011,
-    "genre": "Crime"
-  },
-  {
-    "id": 118,
-    "title": "La La Land",
-    "year": 2016,
-    "genre": "Romance"
-  },
-  {
-    "id": 119,
-    "title": "The Wolf of Wall Street",
-    "year": 2013,
-    "genre": "Comedy"
+    "genre": ["Fantasy"]
   }
 ]

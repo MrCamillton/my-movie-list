@@ -1,7 +1,7 @@
 type MovieCardProps = {
   title: string;
   year: number;
-  genre: string;
+  genre: string[];
   watched: boolean;
   rating: number;
   onWatched: () => void;
@@ -14,7 +14,7 @@ function MovieCard(props: MovieCardProps) {
       <h2>{props.title}</h2>
 
       <p>Rok: {props.year}</p>
-      <p>Gatunek: {props.genre}</p>
+      <p>Gatunek: {props.genre.join(", ")}</p>
 
       <button onClick={props.onWatched}>
         {props.watched ? "✓ Obejrzany" : "Oznacz jako obejrzany"}
